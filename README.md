@@ -1,11 +1,10 @@
 # lru-cache2
 
-LRU cache with O(1) get/put using doubly linked list + hashmap.
+Single-file Python CLI. Zero dependencies.
 
 ## Usage
 
 ```bash
+python3 lru_cache2.py
 python3 lru_cache2.py test
 ```
-
-Zero dependencies. Python 3.8+.
