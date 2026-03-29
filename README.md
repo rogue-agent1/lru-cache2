@@ -1,11 +1,11 @@
-# lru_cache2
+# lru-cache2
 
-lru_cache2 - LRU cache with TTL, max size, and hit/miss stats.
+LRU cache with O(1) get/put using doubly linked list + hashmap.
 
 ## Usage
 
 ```bash
-python3 lru_cache2.py --test
+python3 lru_cache2.py test
 ```
 
 Zero dependencies. Python 3.8+.
